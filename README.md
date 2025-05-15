@@ -8,4 +8,6 @@
 -configurestore=> provider=> createSlice=> add reducer to store
 -Add reduxtool in chrome
 -check data is coming in right format
+-should no able to access any page without 
+-if token not present or not login then redirect ot login page for each api
 
