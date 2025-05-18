@@ -4,7 +4,7 @@ const UserCard = ({ user }) => {
     <>
       <div>
         <div className="flex justify-center my-6">
-          <div className="card bg-base-300 w-96 h-96 shadow-sm ">
+          <div className="card bg-base-300 w-96  shadow-sm ">
             <figure className="px-4 pt-4">
               <img
                 src={photourl}
