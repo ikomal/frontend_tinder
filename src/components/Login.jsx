@@ -19,7 +19,6 @@ const Login = () => {
         },{
           withCredentials:true
         })
-        console.log(res.data);
         dispatch(adduser(res.data));
         return navigate("/");
     }

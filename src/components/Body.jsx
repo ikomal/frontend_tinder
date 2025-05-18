@@ -11,15 +11,16 @@ import axios from "axios";
 const Body = () => {
   const dispatch = useDispatch();
   const navigate=useNavigate();
-  const userdata=useSelector((store)=>store.userdata);
+  const user=useSelector((store)=>store.user);
+  console.log(user);
   const fetchuser = async () => {
     try {
-      if(userdata) return ;
+      if(user) return ;
       const res = await axios.get(Base_url + "/profile/view", {
         withCredentials: true,
       });
       dispatch(adduser(res.data));
-      console.log(res.data)
+      // console.log(res.data)
       
     } catch (err) {
       if(err.status===401){

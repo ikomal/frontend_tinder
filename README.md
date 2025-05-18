@@ -11,5 +11,7 @@
 -should no able to access any page without 
 -if token not present or not login then redirect ot login page for each api
 -logout
--profile
+-profile router created
+-make an editprofile where can update
+-use toast to show profile saved successfully
 

@@ -16,7 +16,7 @@ const Navbar = () => {
     dispatch(removeuser());
     return navigate("/login"); 
   }
-  console.log(user);
+  // console.log(user);
   return (
     <div className="navbar bg-base-300 shadow-sm">
       <div className="flex-1">
@@ -39,8 +39,8 @@ const Navbar = () => {
             >
               <div className="w-10 rounded-full">
                 <img
-                  alt="Tailwind CSS Navbar component"
-                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                  alt="img"
+                  src={user.photourl}
                 />
               </div>
             </div>
