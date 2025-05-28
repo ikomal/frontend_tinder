@@ -32,9 +32,9 @@ const Connections = () => {
         const { _id, firstName, lastName, age, gender, photourl, about } =
           connection;
         return (
-          <div key={_id} className="flex m-8 p-4 rounded-lg bg-base-300 w-1/2 mx-auto ">
-            <div className="">
-              <img src={photourl} alt="" className="rounded-full h-20 w-20" />
+          <div key={_id} className="flex  m-8 p-4 rounded-lg bg-base-300 w-1/2 mx-auto ">
+            <div className=" flex-shrink-0">
+              <img src={photourl} alt="" className="rounded-full  h-20  w-20" />
             </div>
             <div className="text-left mx-4">
               <h1>{firstName + " " + lastName}</h1>
